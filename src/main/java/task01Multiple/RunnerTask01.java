@@ -3,7 +3,7 @@ package task01Multiple;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Runner {
+public class RunnerTask01 {
 
     /**
      * Finding digits that are devided without remainder at divides in range from 1 to dividedMax

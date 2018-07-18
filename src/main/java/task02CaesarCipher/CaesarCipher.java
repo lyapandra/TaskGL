@@ -1,86 +1,138 @@
 package task02CaesarCipher;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import org.apache.log4j.Logger;
 
+import java.util.*;
+
+/**
+ * The main goal of using class {@Code CaesarCipher} is to convert ciphered message with <i>caesar algotithm</i> into  decrypted message using Force method
+ * Result can contains some decrypted messages. Human has to read and choose the most suitable.
+ */
 public class CaesarCipher {
-    Map<Integer, String> mapOfMostRangedCommonEnglishWords = new HashMap<>();
-    static StringBuilder cipheredMessage;
-    
 
-    public int circleShift(int cipheredChar, int shift) {
-        int chFinish = (int) ('a') + (cipheredChar - (int) ('a') + shift) % 26;
-        return chFinish;
-    }
+    static StringBuilder cipheredMessage;
+    Map<Integer, String> rangedCommonEnglishWords = new HashMap<>();
+    Map<Integer, StringBuilder> probableDecryptedMessage = new HashMap<>();
+
+    final static Logger logger = Logger.getLogger(CaesarCipher.class);
+    final static Logger logCaesarCipher = Logger.getLogger("logCaesarCipherDebug");
+
 
     public CaesarCipher(StringBuilder cipheredMessage) {
+
         this.cipheredMessage = cipheredMessage;
-    }
+        this.rangedCommonEnglishWords = getMapOfRangedCommonEnglishWords();
 
-    public void init() {
-        Map<Integer, String> mostCommonEnglishWords = getMapOfRangedCommonEnglishWords();
-
-        List listCipheredMessageWords = Arrays.asList((new String(cipheredMessage)).split(" "));
-        for (int countWords = 1; countWords <= mapOfMostRangedCommonEnglishWords.size(); countWords++) {
-
-            if (listCipheredMessageWords.contains(mapOfMostRangedCommonEnglishWords.get(countWords))){
-                System.out.println(mapOfMostRangedCommonEnglishWords.get(countWords) + " is present");
-            }
-
-        }
-
-//        decryptForce(caesarCipher);
     }
 
     /**
-     * @return
-     * Source: https://en.wikipedia.org/wiki/Most_common_words_in_English
+     * Metod iterates to decrypt the message 25 times
+     *
+     * @return probableDecryptedMessage There can be some decrypted messages. Human has to read and chose the most suitable.
      */
-    private Map<Integer, String> getMapOfRangedCommonEnglishWords() {
+    public Map<Integer, StringBuilder> decryptForce() {
 
-        mapOfMostRangedCommonEnglishWords.put(1,"the");
-        mapOfMostRangedCommonEnglishWords.put(2,"be");
-        mapOfMostRangedCommonEnglishWords.put(3,"to");
-        mapOfMostRangedCommonEnglishWords.put(4,"of");
-        mapOfMostRangedCommonEnglishWords.put(5,"and");
-        mapOfMostRangedCommonEnglishWords.put(6,"a");
-        mapOfMostRangedCommonEnglishWords.put(7,"in");
-        mapOfMostRangedCommonEnglishWords.put(8,"that");
-        mapOfMostRangedCommonEnglishWords.put(9,"have");
-        mapOfMostRangedCommonEnglishWords.put(10,"I");
-        mapOfMostRangedCommonEnglishWords.put(11,"rovvy");
-
-        return mapOfMostRangedCommonEnglishWords;
-    }
-
-    private void decryptForce(CaesarCipher caesarCipher) {
-        for (int shift = 0; shift < 27; shift++) {
+        for (int shift = 1; shift <= 25; shift++) {
             StringBuilder shiftedMessage = new StringBuilder();
-            shiftedMessage = getShiftedMessages(caesarCipher, shift, shiftedMessage);
-
-//            if ((shiftedMessage.indexOf(" a ")>0)|(shiftedMessage.indexOf(" this ")>0)){
-            if (
-                    (shiftedMessage.indexOf(" a ") + (shiftedMessage.indexOf(" this "))
-                            > 0)) {
-                System.out.println("Check this:");
-                System.out.println("For shift = " + shift + " unciphered text is: " + shiftedMessage);
+            shiftedMessage = getShiftedMessages(shift);
+//            shiftedMessage = getShiftedMessages(shift, shiftedMessage);
+            if (isPresentEnglishWords(shiftedMessage)){
+                probableDecryptedMessage.put(shift, shiftedMessage);
+                logCaesarCipher.debug("shift=" + shift + " " + shiftedMessage);
             }
-
         }
+        System.out.println("probableDecryptedMessage = " + probableDecryptedMessage);
+        return probableDecryptedMessage;
     }
 
-    private StringBuilder getShiftedMessages(CaesarCipher caesarCipher, int shift, StringBuilder guessStr) {
+    /**
+     * Method shifts each character of message and creates guessMessage with shifting characters. Spaces are kept.
+     *
+     * @param shift number of shifting each character of message
+     * @return guessMessage containes created message shifted at {@Code shift} number times
+     */
+    public StringBuilder getShiftedMessages(int shift) {
+//    public StringBuilder getShiftedMessages(int shift, StringBuilder guessMessage) {
+ StringBuilder guessMessage = new StringBuilder();
         for (int countChars = 0; countChars < cipheredMessage.length(); countChars++) {
             int charCurrentNmb = cipheredMessage.charAt(countChars);
             if (charCurrentNmb != ' ') {
-                guessStr = guessStr.append((char) circleShift(charCurrentNmb, shift));
+                guessMessage = guessMessage.append((char) circularShift(charCurrentNmb, shift));
             } else {
-                guessStr = guessStr.append(' ');
+                guessMessage = guessMessage.append(' ');
             }
         }
-        return guessStr;
+        return guessMessage;
     }
 
+    /**
+     * {@Code circularShift} provides circular shifting of one {@Code shift} position
+     * @param cipheredChar character that sholud to be shifted
+     * @param shift number of <b>circular</b> shifting of character
+     * @return character after shifting
+     */
+    public int circularShift(int cipheredChar, int shift) {
+        int charFinish = (int) ('a') + (cipheredChar - (int) ('a') + shift) % 26;
+        return charFinish;
+    }
+
+    /**
+     * Create map of 10 most common words in English
+     * @see <a href="https://en.wikipedia.org/wiki/Most_common_words_in_English">Most common words in English (wiki)</a>
+     * @return Common English Words. Keys are number of range. Values are words.
+     */
+    private Map<Integer, String> getMapOfRangedCommonEnglishWords() {
+
+        rangedCommonEnglishWords.put(1, "the");
+        rangedCommonEnglishWords.put(2, "be");
+        rangedCommonEnglishWords.put(3, "to");
+        rangedCommonEnglishWords.put(4, "of");
+        rangedCommonEnglishWords.put(5, "and");
+        rangedCommonEnglishWords.put(6, "a");
+        rangedCommonEnglishWords.put(7, "in");
+        rangedCommonEnglishWords.put(8, "that");
+        rangedCommonEnglishWords.put(9, "have");
+        rangedCommonEnglishWords.put(10, "I");
+        rangedCommonEnglishWords.put(11, "rovvy");
+
+        return rangedCommonEnglishWords;
+    }
+
+    /**
+     * Check if shiftedMessages contains most common English word
+     *
+     * @param shiftedMessages
+     * @return true if shiftedMessages contains most common English word that can be used to check that message is decrypted
+     */
+    private boolean isPresentEnglishWords(StringBuilder shiftedMessages) {
+        boolean isPresentEnglishWords = false;
+        for (int countWords = 1; countWords <= rangedCommonEnglishWords.size(); countWords++) {
+            List listShiftedMessageWords = Arrays.asList((new String(shiftedMessages)).split(" "));
+            if (listShiftedMessageWords.contains(rangedCommonEnglishWords.get(countWords))) {
+                System.out.println("Word \"" + rangedCommonEnglishWords.get(countWords) + "\" is present in rangedCommonEnglishWords");
+                isPresentEnglishWords = true;
+            }
+        }
+        return isPresentEnglishWords;
+    }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        CaesarCipher that = (CaesarCipher) o;
+        return Objects.equals(probableDecryptedMessage, that.probableDecryptedMessage);
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(probableDecryptedMessage);
+    }
+
+    @Override
+    public String toString() {
+        return "CaesarCipher{" +
+                "probableDecryptedMessage=" + probableDecryptedMessage +
+                '}';
+    }
 }

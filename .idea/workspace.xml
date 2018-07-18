@@ -4,7 +4,19 @@
     <option name="CUSTOM_SCOPE_NAME" value="Current File" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde16c20-4ef2-4caa-b834-11cfaca6c8b4" name="Default" comment="" />
+    <list default="true" id="dde16c20-4ef2-4caa-b834-11cfaca6c8b4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/doc/taskMultiple/Runner.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/doc/taskMultiple/Runner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task01Multiple/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task01Multiple/RunnerTask01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task02CaesarCipher/CaesarCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task02CaesarCipher/CaesarCipher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task02CaesarCipher/RunnerTask02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task02CaesarCipher/RunnerTask02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j-application.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j-debug-application.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j-error-application.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,13 +41,44 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RunnerTask01.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task01Multiple/RunnerTask01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RunnerTask02.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task02CaesarCipher/RunnerTask02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -55,9 +98,17 @@
       <find>isPositivResult</find>
       <find>*</find>
       <find>runnerTask02</find>
-      <find>caesarCipher</find>
       <find>RunnerTask02</find>
       <find>caesarCipher.</find>
+      <find>listCipheredMessageWords</find>
+      <find>&quot; &quot;</find>
+      <find>caesarCipher</find>
+      <find>application</find>
+      <find>logDebug</find>
+      <find>mostCommonEnglishWords</find>
+      <find>each chars</find>
+      <find>character</find>
+      <find>char</find>
     </findStrings>
     <replaceStrings>
       <replace>dividerMap</replace>
@@ -69,6 +120,10 @@
       <replace>isPositiveResult</replace>
       <replace>caesarCipher</replace>
       <replace>CaesarCipher</replace>
+      <replace>multiple</replace>
+      <replace>logCaesarCipherDebug</replace>
+      <replace>each char</replace>
+      <replace>character</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -79,7 +134,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Numbers.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/Runner.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/MultipleTest.java" />
@@ -90,11 +144,14 @@
         <option value="$PROJECT_DIR$/src/test/java/taskMultiple/MultipleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/taskMultiple/Runner.java" />
         <option value="$PROJECT_DIR$/src/main/java/taskMultiple/Multiple.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/task02CaesarCipher/Run.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task02CaesarCipher/CaesarCipher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task02CaesarCipher/RunnerTask02.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/task02CaesarCipher/CaesarCipherTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task02CaesarCipher/RunnerTask02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task02CaesarCipher/CaesarCipher.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/task01Multiple/RunnerTask01.java" />
       </list>
     </option>
   </component>
@@ -116,11 +173,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="JUnit" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="TaskGL" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="JUnit" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="TaskGL" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -130,7 +187,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="width" value="1374" />
     <option name="height" value="738" />
   </component>
@@ -140,6 +197,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,13 +231,27 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="task01Multiple" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TaskGL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaskGL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task02CaesarCipher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TaskGL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaskGL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,6 +259,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="X:/!d Inst/portable/03 net/PortableGit_32/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -197,20 +270,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="task02CaesarCipher" />
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="taskMultiple" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="X:\d_D\git_Java\a_JAVA_CORE\Test\src\main\resources" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="task02CaesarCipher" />
       <recent name="" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="X:\d_D\git_Java\a_JAVA_CORE\Test\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -225,16 +299,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MultipleTest.Multiple3">
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task01Multiple.Runner" />
-      <module name="TestGL" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+  <component name="RunManager" selected="Application.RunnerTask02">
+    <configuration name="RunnerTask01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task01Multiple.RunnerTask01" />
+      <module name="TaskGL" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
     <configuration name="RunnerTask02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task02CaesarCipher.RunnerTask02" />
-      <module name="TestGL" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="TaskGL" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="task02CaesarCipher.*" />
@@ -245,6 +319,52 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
+    <configuration name="CaesarCipherTest.decryptForce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskGL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task02CaesarCipher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="task02CaesarCipher" />
+      <option name="MAIN_CLASS_NAME" value="task02CaesarCipher.CaesarCipherTest" />
+      <option name="METHOD_NAME" value="decryptForce" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CaesarCipherTest.getShiftedMessages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskGL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task02CaesarCipher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="task02CaesarCipher" />
+      <option name="MAIN_CLASS_NAME" value="task02CaesarCipher.CaesarCipherTest" />
+      <option name="METHOD_NAME" value="getShiftedMessages" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="MultipleTest.Multiple3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestGL" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -252,40 +372,6 @@
       <option name="PACKAGE_NAME" value="task01Multiple" />
       <option name="MAIN_CLASS_NAME" value="task01Multiple.MultipleTest" />
       <option name="METHOD_NAME" value="Multiple3" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MultipleTest.Multiple4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestGL" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="task01Multiple" />
-      <option name="MAIN_CLASS_NAME" value="task01Multiple.MultipleTest" />
-      <option name="METHOD_NAME" value="Multiple4" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MultipleTest.multipleFrom1ToN" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestGL" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="task01Multiple" />
-      <option name="MAIN_CLASS_NAME" value="task01Multiple.MultipleTest" />
-      <option name="METHOD_NAME" value="multipleFrom1ToN" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -336,17 +422,17 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MultipleTest.Multiple3" />
-      <item itemvalue="JUnit.MultipleTest.Multiple4" />
-      <item itemvalue="Application.Runner" />
-      <item itemvalue="JUnit.MultipleTest.multipleFrom1ToN" />
+      <item itemvalue="Application.RunnerTask01" />
       <item itemvalue="Application.RunnerTask02" />
+      <item itemvalue="JUnit.CaesarCipherTest.decryptForce" />
+      <item itemvalue="JUnit.CaesarCipherTest.getShiftedMessages" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.RunnerTask02" />
-        <item itemvalue="Application.Runner" />
-        <item itemvalue="JUnit.MultipleTest.multipleFrom1ToN" />
-        <item itemvalue="JUnit.MultipleTest.Multiple4" />
+        <item itemvalue="Application.RunnerTask01" />
+        <item itemvalue="JUnit.CaesarCipherTest.getShiftedMessages" />
+        <item itemvalue="JUnit.CaesarCipherTest.decryptForce" />
         <item itemvalue="JUnit.MultipleTest.Multiple3" />
       </list>
     </recent_temporary>
@@ -369,6 +455,7 @@
       <workItem from="1531902332284" duration="9000" />
       <workItem from="1531902387486" duration="44000" />
       <workItem from="1531902454298" duration="1812000" />
+      <workItem from="1531906078093" duration="19392000" />
     </task>
     <task id="LOCAL-00001" summary="remove procedural-style 2 files and commented procedural-style code">
       <created>1531800969093</created>
@@ -423,39 +510,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MultipleTest_multipleFrom1ToN - 2018.07.16 at 22h 26m 56s.xml">
-      <configuration name="MultipleTest.multipleFrom1ToN" configurationId="JUnit" />
+    <history-entry file="CaesarCipherTest_decryptForce - 2018.07.18 at 16h 01m 43s.xml">
+      <configuration name="CaesarCipherTest.decryptForce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultipleTest_multipleFrom1ToN - 2018.07.16 at 22h 28m 21s.xml">
-      <configuration name="MultipleTest.multipleFrom1ToN" configurationId="JUnit" />
+    <history-entry file="CaesarCipherTest_decryptForce - 2018.07.18 at 16h 08m 53s.xml">
+      <configuration name="CaesarCipherTest.decryptForce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultipleTest_multipleFrom1ToN - 2018.07.16 at 22h 29m 48s.xml">
-      <configuration name="MultipleTest.multipleFrom1ToN" configurationId="JUnit" />
+    <history-entry file="CaesarCipherTest_decryptForce - 2018.07.18 at 16h 22m 24s.xml">
+      <configuration name="CaesarCipherTest.decryptForce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultipleTest_multipleFrom1ToN - 2018.07.16 at 22h 32m 49s.xml">
-      <configuration name="MultipleTest.multipleFrom1ToN" configurationId="JUnit" />
+    <history-entry file="CaesarCipherTest_decryptForce - 2018.07.18 at 16h 30m 10s.xml">
+      <configuration name="CaesarCipherTest.decryptForce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultipleTest_multipleFrom1ToN - 2018.07.16 at 22h 32m 59s.xml">
-      <configuration name="MultipleTest.multipleFrom1ToN" configurationId="JUnit" />
+    <history-entry file="CaesarCipherTest_decryptForce - 2018.07.18 at 16h 30m 25s.xml">
+      <configuration name="CaesarCipherTest.decryptForce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultipleTest_multipleFrom1ToN - 2018.07.16 at 22h 39m 23s.xml">
-      <configuration name="MultipleTest.multipleFrom1ToN" configurationId="JUnit" />
+    <history-entry file="CaesarCipherTest_decryptForce - 2018.07.18 at 16h 32m 02s.xml">
+      <configuration name="CaesarCipherTest.decryptForce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultipleTest_multipleFrom1ToN - 2018.07.16 at 22h 41m 33s.xml">
-      <configuration name="MultipleTest.multipleFrom1ToN" configurationId="JUnit" />
+    <history-entry file="CaesarCipherTest_decryptForce - 2018.07.18 at 16h 41m 08s.xml">
+      <configuration name="CaesarCipherTest.decryptForce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultipleTest_multipleFrom1ToN - 2018.07.16 at 22h 42m 08s.xml">
-      <configuration name="MultipleTest.multipleFrom1ToN" configurationId="JUnit" />
+    <history-entry file="CaesarCipherTest_decryptForce - 2018.07.18 at 16h 42m 15s.xml">
+      <configuration name="CaesarCipherTest.decryptForce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultipleTest_multipleFrom1ToN - 2018.07.16 at 22h 42m 21s.xml">
-      <configuration name="MultipleTest.multipleFrom1ToN" configurationId="JUnit" />
+    <history-entry file="CaesarCipherTest_getShiftedMessages - 2018.07.18 at 17h 07m 43s.xml">
+      <configuration name="CaesarCipherTest.getShiftedMessages" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultipleTest_multipleFrom1ToN - 2018.07.17 at 07h 59m 42s.xml">
-      <configuration name="MultipleTest.multipleFrom1ToN" configurationId="JUnit" />
+    <history-entry file="CaesarCipherTest_getShiftedMessages - 2018.07.18 at 17h 22m 30s.xml">
+      <configuration name="CaesarCipherTest.getShiftedMessages" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75050000" />
+    <option name="totallyTimeSpent" value="94442000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -467,70 +554,73 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="0" y="0" width="1374" height="738" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="TODO" order="11" weight="0.3297546" />
-      <window_info id="simpleUML" order="4" weight="0.32980332" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="0" weight="0.12556732" />
-      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.52300614" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.37576687" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.9110429" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="2" weight="0.12480974" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
-      <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.16717096" />
-      <window_info anchor="right" id="Database" order="2" weight="0.32980332" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.6242331" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.3297546" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.7806749" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="295" height="584" id="Documentation" order="9" side_tool="true" weight="0.32980332" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.24962178" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.24961948" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6242331" />
+      <window_info anchor="right" id="Code Iris" order="0" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3297546" />
+      <window_info id="simpleUML" order="6" weight="0.32980332" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.32933104" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.52300614" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3070326" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.18353345" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22298326" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.780446" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="295" height="584" id="Documentation" order="10" side_tool="true" weight="0.32980332" />
+      <window_info anchor="bottom" id="Message" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info id="Image Layers" order="1" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.14263804" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3297546" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44939965" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.18353345" />
       <window_info id="Capture Tool" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.3297546" />
-      <window_info anchor="right" x="0" y="0" width="295" height="584" id="Documentation" order="9" side_tool="true" weight="0.32980332" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.24962178" />
-      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="3" visible="true" weight="0.52300614" />
-      <window_info anchor="right" id="Maven Projects" order="0" weight="0.12556732" />
-      <window_info id="simpleUML" order="4" weight="0.32980332" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.22995462" />
-      <window_info anchor="right" id="Database" order="2" weight="0.32980332" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="TODO" order="11" weight="0.3297546" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.7806749" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.6242331" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.32933104" />
+      <window_info anchor="right" x="0" y="0" width="295" height="584" id="Documentation" order="10" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.24961948" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.52300614" />
+      <window_info anchor="right" id="Maven Projects" order="2" weight="0.12480974" />
+      <window_info anchor="right" id="Code Iris" order="0" />
+      <window_info id="simpleUML" order="6" weight="0.32980332" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.780446" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17047185" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3297546" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6242331" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -586,7 +676,7 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="18" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -600,11 +690,9 @@
         <state relative-caret-position="360">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
-            <element signature="method#circleShift#0;class#CaesarCipher#0" />
-            <element signature="docComment;method#getMapOfRangedCommonEnglishWords#0;class#CaesarCipher#0" />
-            <element signature="method#getMapOfRangedCommonEnglishWords#0;class#CaesarCipher#0" />
-            <element signature="method#decryptForce#0;class#CaesarCipher#0" />
-            <element signature="method#getShiftedMessages#0;class#CaesarCipher#0" />
+            <element signature="method#equals#0;class#CaesarCipher#0" />
+            <element signature="method#hashCode#0;class#CaesarCipher#0" />
+            <element signature="method#toString#0;class#CaesarCipher#0" />
           </folding>
         </state>
       </provider>
@@ -633,7 +721,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task01Multiple/Runner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/task01Multiple/RunnerTask01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="74" selection-start-line="8" selection-start-column="7" selection-end-line="20" selection-end-column="74" />
@@ -643,20 +731,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3540">
-          <caret line="177" column="11" selection-start-line="177" selection-start-column="11" selection-end-line="177" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/String.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/ArrayList.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task02CaesarCipher/RunnerTask02.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -698,7 +774,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task01Multiple/Runner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/task01Multiple/RunnerTask01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="74" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="20" selection-end-column="74" />
@@ -708,27 +784,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3540">
-          <caret line="177" column="11" selection-start-line="177" selection-start-column="11" selection-end-line="177" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="36" column="63" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/String.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/ArrayList.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/Map.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -752,15 +810,6 @@
           <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j-application.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j-error-application.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j-debug-application.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task01Multiple/Multiple.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -786,34 +835,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/Number.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="54" column="22" selection-start-line="54" selection-end-line="117" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="114" column="30" selection-start-line="114" selection-start-column="30" selection-end-line="114" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.logging/java/util/logging/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3540">
-          <caret line="221" column="13" selection-start-line="221" selection-start-column="13" selection-end-line="221" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/Number.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/Integer.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/StringBuilder.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.logging/java/util/logging/Logger.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j-warn-application.log" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j-warn-application.html" />
     <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Logger.class">
@@ -830,13 +855,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="36" column="63" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/Map.java" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -845,29 +864,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testMultiple/qwe.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j-debug-application.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2320">
           <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j-error-application.log">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j-application.log">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="196">
-          <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -878,75 +878,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task01Multiple/Multiple.java">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/String.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/ArrayList.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding>
-            <element signature="docComment;method#remainder#0;class#Multiple#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task02CaesarCipher/RunnerTask02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task02CaesarCipher/CaesarCipher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="method#circleShift#0;class#CaesarCipher#0" />
-            <element signature="docComment;method#getMapOfRangedCommonEnglishWords#0;class#CaesarCipher#0" />
-            <element signature="method#getMapOfRangedCommonEnglishWords#0;class#CaesarCipher#0" />
-            <element signature="method#decryptForce#0;class#CaesarCipher#0" />
-            <element signature="method#getShiftedMessages#0;class#CaesarCipher#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="10" selection-start-column="10" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/task01Multiple/MultipleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task01Multiple/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="74" selection-start-line="8" selection-start-column="7" selection-end-line="20" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="177" column="11" selection-start-line="177" selection-start-column="11" selection-end-line="177" selection-end-column="11" />
+        <state relative-caret-position="100">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -957,10 +894,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/task01Multiple/MultipleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="39" selection-start-line="21" selection-start-column="8" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/junit/framework/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
+          <folding>
+            <element signature="e#5748#5749#0" expanded="true" />
+            <element signature="e#5784#5785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/junit/framework/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="339" lean-forward="true" selection-start-line="339" selection-end-line="339" />
+          <folding>
+            <element signature="docComment;class#Assert#0" />
+            <element signature="docComment;method#Assert#0;class#Assert#0" />
+            <element signature="method#Assert#0;class#Assert#0" />
+            <element signature="docComment;method#assertTrue#0;class#Assert#0" />
+            <element signature="method#assertTrue#0;class#Assert#0" />
+            <element signature="docComment;method#assertTrue#1;class#Assert#0" />
+            <element signature="docComment;method#assertFalse#0;class#Assert#0" />
+            <element signature="docComment;method#assertFalse#1;class#Assert#0" />
+            <element signature="docComment;method#fail#0;class#Assert#0" />
+            <element signature="method#fail#0;class#Assert#0" />
+            <element signature="docComment;method#fail#1;class#Assert#0" />
+            <element signature="docComment;method#assertEquals#0;class#Assert#0" />
+            <element signature="method#assertEquals#0;class#Assert#0" />
+            <element signature="docComment;method#assertEquals#1;class#Assert#0" />
+            <element signature="docComment;method#assertEquals#2;class#Assert#0" />
+            <element signature="method#assertEquals#2;class#Assert#0" />
+            <element signature="docComment;method#assertEquals#3;class#Assert#0" />
+            <element signature="docComment;method#assertEquals#4;class#Assert#0" />
+            <element signature="method#assertEquals#4;class#Assert#0" />
+            <element signature="docComment;method#assertEquals#5;class#Assert#0" />
+            <element signature="method#assertEquals#5;class#Assert#0" />
+            <element signature="docComment;method#assertEquals#6;class#Assert#0" />
+            <element signature="method#assertEquals#6;class#Assert#0" />
+            <element signature="docComment;method#assertEquals#7;class#Assert#0" />
+            <element signature="method#assertEquals#7;class#Assert#0" />
+            <element signature="docComment;method#assertEquals#8;class#Assert#0" />
+            <element signature="method#assertEquals#8;class#Assert#0" />
+            <element signature="docComment;method#assertEquals#9;class#Assert#0" />
+            <element signature="docComment;method#assertEquals#10;class#Assert#0" />
+            <element signature="method#assertEquals#10;class#Assert#0" />
+            <element signature="docComment;method#assertEquals#11;class#Assert#0" />
+            <element signature="docComment;method#assertEquals#12;class#Assert#0" />
+            <element signature="method#assertEquals#12;class#Assert#0" />
+            <element signature="docComment;method#assertEquals#13;class#Assert#0" />
+            <element signature="docComment;method#assertEquals#14;class#Assert#0" />
+            <element signature="method#assertEquals#14;class#Assert#0" />
+            <element signature="docComment;method#assertEquals#15;class#Assert#0" />
+            <element signature="docComment;method#assertEquals#16;class#Assert#0" />
+            <element signature="method#assertEquals#16;class#Assert#0" />
+            <element signature="docComment;method#assertEquals#17;class#Assert#0" />
+            <element signature="docComment;method#assertEquals#18;class#Assert#0" />
+            <element signature="method#assertEquals#18;class#Assert#0" />
+            <element signature="docComment;method#assertEquals#19;class#Assert#0" />
+            <element signature="docComment;method#assertNotNull#0;class#Assert#0" />
+            <element signature="docComment;method#assertNotNull#1;class#Assert#0" />
+            <element signature="docComment;method#assertNull#0;class#Assert#0" />
+            <element signature="method#assertNull#0;class#Assert#0" />
+            <element signature="docComment;method#assertNull#1;class#Assert#0" />
+            <element signature="docComment;method#assertSame#1;class#Assert#0" />
+            <element signature="docComment;method#assertNotSame#0;class#Assert#0" />
+            <element signature="method#assertNotSame#0;class#Assert#0" />
+            <element signature="docComment;method#assertNotSame#1;class#Assert#0" />
+            <element signature="method#failSame#0;class#Assert#0" />
+            <element signature="method#failNotSame#0;class#Assert#0" />
+            <element signature="method#failNotEquals#0;class#Assert#0" />
+            <element signature="method#format#0;class#Assert#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/builders/JUnit4Builder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task01Multiple/Multiple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+          <folding>
+            <element signature="docComment;method#remainder#0;class#Multiple#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/task02CaesarCipher/CaesarCipherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="36" column="2" selection-start-line="36" selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret lean-forward="true" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task02CaesarCipher/CaesarCipher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="68" column="85" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="85" />
+          <folding>
+            <element signature="method#equals#0;class#CaesarCipher#0" />
+            <element signature="method#hashCode#0;class#CaesarCipher#0" />
+            <element signature="method#toString#0;class#CaesarCipher#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task01Multiple/RunnerTask01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task02CaesarCipher/RunnerTask02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
