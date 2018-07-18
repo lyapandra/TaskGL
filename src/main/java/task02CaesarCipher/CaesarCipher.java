@@ -5,7 +5,7 @@ import org.apache.log4j.Logger;
 import java.util.*;
 
 /**
- * The main goal of using class {@Code CaesarCipher} is to convert ciphered message with <i>caesar algotithm</i> into  decrypted message using Force method
+ * The main goal of using class <code>CaesarCipher</code> is to convert ciphered message with <i>caesar algotithm</i> into  decrypted message using Force method
  * Result can contains some decrypted messages. Human has to read and choose the most suitable.
  */
 public class CaesarCipher {
@@ -49,7 +49,7 @@ public class CaesarCipher {
      * Method shifts each character of message and creates guessMessage with shifting characters. Spaces are kept.
      *
      * @param shift number of shifting each character of message
-     * @return guessMessage containes created message shifted at {@Code shift} number times
+     * @return guessMessage containes created message shifted at <code>shift</code> number times
      */
     public StringBuilder getShiftedMessages(int shift) {
 //    public StringBuilder getShiftedMessages(int shift, StringBuilder guessMessage) {
@@ -66,7 +66,7 @@ public class CaesarCipher {
     }
 
     /**
-     * {@Code circularShift} provides circular shifting of one {@Code shift} position
+     * <code>circularShift</code> provides circular shifting of one <code>shift</code> position
      * @param cipheredChar character that sholud to be shifted
      * @param shift number of <b>circular</b> shifting of character
      * @return character after shifting
